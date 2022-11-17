@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class BubbleSort {
     public static void main(String[] args) {
         var in = new Scanner(System.in);
-        System.out.print("Plese enter array length: ");
+        System.out.print("Please enter array length: ");
         var size = in.nextInt();
         var array = new Integer[size];
         for (var i = 0; i < size; ++i) {
